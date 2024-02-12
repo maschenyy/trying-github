@@ -12,6 +12,9 @@ Original file is located at
 def penjumlahah(angka_1, angka_2):
   # x = float(input(angka1))
   # y = float(input(angka2))
-
   total = angka_1 + angka_2
   return total
+
+angka_1 = float(input("Masukkan angka pertama: "))
+angka_2 =  float(input("Masukkan angka kedua: "))
+penjumlahan(angka_1,angka_2)
